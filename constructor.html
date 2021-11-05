@@ -1,5 +1,5 @@
 <html>
-    <body>
+    <head>
             <script language="JavaScript">
                 function czolgi(nazwa,kraj,typ,waga,kaliber,predkosc,pancerz_kadluba,pancerz_wiezy,rodzaj_amunicji,ilosc_amunicji);
                 {
@@ -14,39 +14,40 @@
                     this.rodzaj_amunicji=rodzaj_amunicji;
                     this.ilosc_amunicji=ilosc_amunicji;
                 }
-                T3485 = new czolgi("T-34-85 ","ZSRR ","Czolg sredni ","32 tony ","85mm ","55km/h ","80mm ","90mm ","AP, APCR, HE ","55 sztuk amunicji");
-                Panzerkampfwagen_E100 = new czolgi("E100 ","III Rzesza ","Czolg superciezki ","137,8 ton ","152mm ","40km/h ","240mm ","240mm ","AP, HEAT, HE ","50 sztuk amunicji");
-                Type_74 = new czolgi("STB-1 ","Japonia ","Czolg sredni ","38 tony ","105mm ","53km/h ","120mm ","120mm ","AP, HEAT, HE ","40 sztuk amunicji");
-                AMX_30B = new czolgi("AMX 30B ","Francja ","Czolg sredni ","36 tony ","105mm ","65km/h ","70mm ","80mm ","AP, APCR, HE ","47 sztuk amunicji");
-                T57_Heavy = new czolgi("T57 Heavy ","Stany Zjednoczone ","Czolg ciezki ","54,3 tony ","153mm ","35km/h ","203mm ","150mm ","AP, HEAT, HE ","36 sztuk amunicji");
+                T3485= new czolgi("T-34-85 ","ZSRR ","sredni ","32 tony ","85mm ","55km/h ","80mm ","90mm ","AP, APCR, HE ","55 sztuk amunicji");
+                Panzerkampfwagen_E100 = new czolgi("E100 ","III Rzesza ","superciezki ","137,8 ton ","152mm ","40km/h ","240mm ","240mm ","AP, HEAT, HE ","50 sztuk amunicji");
+                Type_74= new czolgi("STB-1 ","Japonia ","sredni ","38 tony ","105mm ","53km/h ","120mm ","120mm ","AP, HEAT, HE ","40 sztuk amunicji");
+                AMX30B= new czolgi("AMX 30B ","Francja ","sredni ","36 tony ","105mm ","65km/h ","70mm ","80mm ","AP, APCR, HE ","47 sztuk amunicji");
+                T57_Heavy= new czolgi("T57 Heavy ","Stany Zjednoczone ","ciezki ","54,3 tony ","153mm ","35km/h ","203mm ","150mm ","AP, HEAT, HE ","36 sztuk amunicji");
 
-                document.write("Nazwa: "+T3485.nazwa+" Kraj: "+T3485.kraj+" Typ: "+T3485.Typ+" Waga: "+T3485.waga+"Kaliber: "+T3485.kaliber+"Predkosc: "+T3485.predkosc+"Pancerz kadłuba: "+T3485.pancerz_kadluba+"Pancerz wiezy: "+T3485.rodzaj_amunicji+"Ilosc amunicji: "+T3485.ilosc_amunicji);
-                document.write("Nazwa: "+Panzerkampfwagen_E100.nazwa+" Kraj: "+Panzerkampfwagen_E100.kraj+" Typ: "+Panzerkampfwagen_E100.Typ+" Waga: "+Panzerkampfwagen_E100.waga+"Kaliber: "+Panzerkampfwagen_E100.kaliber+"Predkosc: "+Panzerkampfwagen_E100.predkosc+"Pancerz kadłuba: "+Panzerkampfwagen_E100.pancerz_kadluba+"Pancerz wiezy: "+Panzerkampfwagen_E100.rodzaj_amunicji+"Ilosc amunicji: "+Panzerkampfwagen_E100.ilosc_amunicji);
-                document.write("Nazwa: "+Type_74.nazwa+" Kraj: "+Type_74.kraj+" Typ: "+Type_74.Typ+" Waga: "+Type_74.waga+"Kaliber: "+Type_74.kaliber+"Predkosc: "+Type_74.predkosc+"Pancerz kadłuba: "+Type_74.pancerz_kadluba+"Pancerz wiezy: "+Type_74.rodzaj_amunicji+"Ilosc amunicji: "+Type_74.ilosc_amunicji);
-                document.write("Nazwa: "+AMX_30B.nazwa+" Kraj: "+AMX_30B.kraj+" Typ: "+AMX_30B.Typ+" Waga: "+AMX_30B.waga+"Kaliber: "+AMX_30B.kaliber+"Predkosc: "+AMX_30B.predkosc+"Pancerz kadłuba: "+AMX_30B.pancerz_kadluba+"Pancerz wiezy: "+AMX_30B.rodzaj_amunicji+"Ilosc amunicji: "+AMX_30B.ilosc_amunicji);
-                document.write("Nazwa: "+T57_Heavy.nazwa+" Kraj: "+T57_Heavy.kraj+" Typ: "+T57_Heavy.Typ+" Waga: "+T57_Heavy.waga+"Kaliber: "+T57_Heavy.kaliber+"Predkosc: "+T57_Heavy.predkosc+"Pancerz kadłuba: "+T57_Heavy.pancerz_kadluba+"Pancerz wiezy: "+T57_Heavy.rodzaj_amunicji+"Ilosc amunicji: "+T57_Heavy.ilosc_amunicji);
-
+                document.write("Nazwa: "+ T3485.nazwa+" Kraj: "+ T3485.kraj+" Typ: "+ T3485.typ+" Waga: "+ T3485.waga+"Kaliber: "+ T3485.kaliber+"Predkosc: "+ T3485.predkosc+"Pancerz kadłuba: "+ T3485.pancerz_kadluba+"Pancerz wiezy: "+ T3485.rodzaj_amunicji+"Ilosc amunicji: "+ T3485.ilosc_amunicji);
+                document.write("Nazwa: "+ Panzerkampfwagen_E100.nazwa+" Kraj: "+ Panzerkampfwagen_E100.kraj+" Typ: "+ Panzerkampfwagen_E100.typ+" Waga: "+ Panzerkampfwagen_E100.waga+"Kaliber: "+ Panzerkampfwagen_E100.kaliber+"Predkosc: "+ Panzerkampfwagen_E100.predkosc+"Pancerz kadłuba: "+ Panzerkampfwagen_E100.pancerz_kadluba+"Pancerz wiezy: "+ Panzerkampfwagen_E100.rodzaj_amunicji+"Ilosc amunicji: "+ Panzerkampfwagen_E100.ilosc_amunicji);
+                document.write("Nazwa: "+ Type_74.nazwa+" Kraj: "+ Type_74.kraj+" Typ: "+ Type_74.typ+" Waga: "+ Type_74.waga+"Kaliber: "+ Type_74.kaliber+"Predkosc: "+ Type_74.predkosc+"Pancerz kadłuba: "+ Type_74.pancerz_kadluba+"Pancerz wiezy: "+ Type_74.rodzaj_amunicji+"Ilosc amunicji: "+ Type_74.ilosc_amunicji);
+                document.write("Nazwa: "+ AMX30B.nazwa+" Kraj: "+ AMX30B.kraj+" Typ: "+ AMX30B.typ+" Waga: "+ AMX30B.waga+"Kaliber: "+ AMX30B.kaliber+"Predkosc: "+ AMX30B.predkosc+"Pancerz kadłuba: "+ AMX30B.pancerz_kadluba+"Pancerz wiezy: "+ AMX30B.rodzaj_amunicji+"Ilosc amunicji: "+ AMX30B.ilosc_amunicji);
+                document.write("Nazwa: "+ T57_Heavy.nazwa+" Kraj: "+ T57_Heavy.kraj+" Typ: "+ T57_Heavy.typ+" Waga: "+ T57_Heavy.waga+"Kaliber: "+ T57_Heavy.kaliber+"Predkosc: "+ T57_Heavy.predkosc+"Pancerz kadłuba: "+ T57_Heavy.pancerz_kadluba+"Pancerz wiezy: "+ T57_Heavy.rodzaj_amunicji+"Ilosc amunicji: "+ T57_Heavy.ilosc_amunicji);
+            </script>
+            <script language="JavaScript">
                 function koty(imie,rasa,waga,kolor,wiek,kolor_oczu);
                 {
                     this.imie=imie;
                     this.rasa=rasa;
-                    this.waga=waga;
+                    this.waga_kota=waga_kota;
                     this.kolor=kolor;
                     this.wiek=wiek;
                     this.kolor_oczu=kolor_oczu;
                 }
                 
-                Syberyjski = new koty("Okruszek","Syberyjski","5kg","Biało-szary","6 lat","niebieski");
-                Perski = new koty("Andrzej","Perski","6kg","Biały","2 lata","szary");
-                Brytyjski = new koty("Franek","Brytyjski","4kg","Szary","10 lat","pomarańczkowy");
-                Birmański  = new koty("Kacper","Birmański","5kg","Biało-brązowo-czarny","8 lat","zielony");
-                Ragdoll = new koty("Puszek","Ragdoll","6kg","Kremowo-biały","9 lat","niebieski");
+                Syberyjski= new koty("Okruszek","Syberyjski","5kg","Białoszary","6 lat","niebieski");
+                Perski= new koty("Andrzej","Perski","6kg","Biały","2 lata","szary");
+                Brytyjski= new koty("Franek","Brytyjski","4kg","Szary","10 lat","pomarańczkowy");
+                Birmanski= new koty("Kacper","Birmanski","5kg","Białobrązowoczarny","8 lat","zielony");
+                Ragdoll= new koty("Puszek","Ragdoll","6kg","Kremowobiały","9 lat","niebieski");
 
-                document.write("imie: "+Syberyjski.imie+"Rasa: "+Syberyjski.rasa+"Waga: "+Syberyjski.waga+"Kolor: "+Syberyjski.kolor+"Wiek: "+Syberyjski.wiek+"Kolor oczu: "+Syberyjski.kolor_oczu);
-                document.write("imie: "+Perski.imie+"Rasa: "+Perski.rasa+"Waga: "+Perski.waga+"Kolor: "+Perski.kolor+"Wiek: "+Perski.wiek+"Kolor oczu: "+Perski.kolor_oczu);
-                document.write("imie: "+Brytyjski.imie+"Rasa: "+Brytyjski.rasa+"Waga: "+Brytyjski.waga+"Kolor: "+Brytyjski.kolor+"Wiek: "+Brytyjski.wiek+"Kolor oczu: "+Brytyjski.kolor_oczu);
-                document.write("imie: "+Birmański.imie+"Rasa: "+Birmański.rasa+"Waga: "+Birmański.waga+"Kolor: "+Birmański.kolor+"Wiek: "+Birmański.wiek+"Kolor oczu: "+Birmański.kolor_oczu);
-                document.write("imie: "+Ragdoll.imie+"Rasa: "+Ragdoll.rasa+"Waga: "+Ragdoll.waga+"Kolor: "+Ragdoll.kolor+"Wiek: "+Ragdoll.wiek+"Kolor oczu: "+Ragdoll.kolor_oczu);
-                </script>
-     </body>
+                document.write("imie: "+ Syberyjski.imie+"Rasa: "+ Syberyjski.rasa+"Waga: "+ Syberyjski.waga_kota+"Kolor: "+ Syberyjski.kolor+"Wiek: "+ Syberyjski.wiek+"Kolor oczu: "+ Syberyjski.kolor_oczu);
+                document.write("imie: "+ Perski.imie+"Rasa: "+ Perski.rasa+"Waga: "+ Perski.waga_kota+"Kolor: "+ Perski.kolor+"Wiek: "+ Perski.wiek+"Kolor oczu: "+ Perski.kolor_oczu);
+                document.write("imie: "+ Brytyjski.imie+"Rasa: "+ Brytyjski.rasa+"Waga: "+ Brytyjski.waga_kota+"Kolor: "+ Brytyjski.kolor+"Wiek: "+ Brytyjski.wiek+"Kolor oczu: "+ Brytyjski.kolor_oczu);
+                document.write("imie: "+ Birmanski.imie+"Rasa: "+ Birmanski.rasa+"Waga: "+ Birmanski.waga_kota+"Kolor: "+ Birmanski.kolor+"Wiek: "+ Birmanski.wiek+"Kolor oczu: "+ Birmanski.kolor_oczu);
+                document.write("imie: "+ Ragdoll.imie+"Rasa: "+ Ragdoll.rasa+"Waga: "+ Ragdoll.waga_kota+"Kolor: "+ Ragdoll.kolor+"Wiek: "+ Ragdoll.wiek+"Kolor oczu: "+ Ragdoll.kolor_oczu);
+            </script>
+     </head>
 </html>
