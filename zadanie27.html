@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        var czlowiek = {
+            nazwisko: 'Nowacki',
+            imie: 'Marek',
+            zawod: 'informatyk',
+            wzrost: '143 cm',
+            pokaz: function (){
+                document.write(this.nazwisko + ' ' +this.imie+ ' '  +this.zawod+ ' ' +this.wzrost)
+            }
+            }
+                czlowiek.pokaz();
+                czlowiek.wiek=19;
+                czlowiek.iq=100;
+                czlowiek.wypisz=function() {
+                    alert('Wiek: ' + this.wiek + 'lat')
+                    alert('IQ: ' + this.iq)
+                }
+                czlowiek.wypisz();
+        </script>
+    </head>
+<body>
+    <br>programowanie obiektowe  </body>
+</html>
