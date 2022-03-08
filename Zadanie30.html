@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        var user = {
+            email: 'a2@pl',
+            haslo: 'haslo',
+            url_awatara: 'awatar',
+            wypisz: function (){
+                document.write(this.email + ' ' +this.haslo+ ' '  +this.url_awatara)
+            }
+            
+            }
+            var userList = new user("a2@pl", "haslo", "awatar");
+                userList.wypisz();
+            var adduser = new user("login", "password", "email");
+                adduser.wypisz();
+
+                czlowiek.wiek=19;
+                czlowiek.iq=100;
+                czlowiek.wypisz=function() {
+                    alert('Wiek: ' + this.wiek + 'lat')
+                    alert('IQ: ' + this.iq)
+                }
+                czlowiek.wypisz();
+        </script>
+    </head>
+<body>
+    <br>programowanie obiektowe  </body>
+</html>
