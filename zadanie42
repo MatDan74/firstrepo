@@ -1,0 +1,23 @@
+window.screen.color
+Depth→odpowiada za głębię kolorów.window.screen.
+width→szerokość ekranu,window.screen.
+height→wysokość ekranu,window.screen.avail
+Width→tylko dostępna szerokość ekranu, to znaczy odejmuje wszelkie systemowe paski menu,window.screen.avail
+Height→analogicznie jak wyżej,
+===========================================================================
+Metoda .open()window.open()
+→to metoda, która pozwala na otworzenie nowego okna. Jej parametrami są:
+URL–adres strony, która ma zostać załadowana w nowym oknie,
+name–określa sposób otwarcia nowego okna,
+specs–lista wartości rozdzielonych przecinkami, które dotyczą takich właściwości okna jak możliwość zmiany rozmiaru, wysokość, szerokość, ...,
+replace–parametr, który mówi czy nowe okno ma dodać nowy wpis do historii przeglądarki czy zastąpić aktualny.
+
+Metoda .close()
+window.close()
+→służy do zamknięcia aktualnego okna.
+Metoda →window.moveTo(), window.moveBy(), window.resizeTo()window.moveTo()
+→metody służą do zmiany położenia okna przeglądarki na pulpicie. Przyjmują parametry określające pozycję w poziomie i pionie
+window.moveBy() 
+→metody służą do zmiany położenia okna przeglądarki na pulpicie. Przyjmują parametry określające pozycję w poziomiei pionie
+window.resizeTo() 
+→Trzecia metoda zmienia rozmiar okna przeglądarki. Przyjmuje nową szerokość i wysokość.
